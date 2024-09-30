@@ -73,7 +73,7 @@
 
     <div id="about" class="tab-content">
         <h2>About Me</h2>
-        <p>Hi, I am <strong>Jared</strong>, a <strong>Master's Stundent in Biology</strong>. I am passionate about <strong>secret</strong> and love exploring new technologies and building creative solutions.</p>
+        <p>Hi, I am <strong>Jared</strong>, a <strong>Master's Student in Biology</strong>. I am passionate about <strong>researching biological systems</strong> and love exploring new technologies and building creative solutions.</p>
     </div>
 
     <div id="socials" class="tab-content">
@@ -81,6 +81,7 @@
         <p>You can find me on:</p>
         <ul>
             <li><a href="https://www.instagram.com/jaweeeid/" target="_blank">Instagram</a></li>
+            <!-- Add more social media links as needed -->
         </ul>
     </div>
 
@@ -105,7 +106,7 @@
             }
             
             // Show the selected tab
-            document.getElementById(About).style.display = "block";
+            document.getElementById(tabName).style.display = "block"; // Corrected here
             evt.currentTarget.className += " active";
         }
 
