@@ -4,115 +4,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jared's Portfolio</title>
+    <title>Portfolio</title>
     <meta name="description" content="Portfolio of Jared, a Master's student in Biology, exploring fields like Bioinformatics and video games.">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
 </head>
 <body>
     <div id="top"></div>
     <header>
         <div class="content">
             <span class="logo"><a href="#">Never Mind</a></span>
-            <nav>
-                <ul>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">My Skills</a></li>
-                </ul>
-            </nav>
+            <ul>
+                <li><a href="#about-me">about me</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#skills">my skills</a></li>
+            </ul>
         </div>
     </header>
     <div class="container">
-        <main>
-            <div class="left">
-                <h1>Hey, I'm<br>Jared</h1>
-                <h2> :) </h2>
-                <div class="btn">
-                    <a class="cv" href="https://www.google.com/" target="_blank">Download Resume</a>
-                    <a class="contact" href="#contacts">Get in Touch</a>
+    <main>
+        <div class="left">
+            <h1>Hey, I'm<br>
+                Jared
+            </h1>
+            <h2>
+                :)
+            </h2>
+            <div class="btn">
+                <button class="cv"><a id="pdf" href="https://www.google.com/" target="_blank">Download Resume</a></button>
+                <button class="contact"><a href="#contacts">Get in Touch</a></button>
+            </div>
+        </div>
+        <div class="right">
+            <img src="102-Awesome_Portfolio/102 - Awesome Portfolio/04 Portfolio/assets/images/anime.png" alt="Portrait of Jared">
+        </div>
+    </main>
+    <section class="about-me">
+        <h2 id="about-me" class="target">About me</h2>
+        <p>I am a Master's student at Adamson University, pursuing a Master's Degree in Biology. 
+            I’m versatile in learning & experiencing different fields. 
+            I have a keen interest in Biology & currently interested in Bioinformatics. 
+            I also like playing video games. 🎮
+        </p>
+    </section>
+    <section class="contacts" id="contacts">
+        <div class="contact">
+            <div class="icon">
+                <i class="far fa-smile"></i>
+            </div>
+            <span class="title">My name</span>
+            <span class="description">Jared</span>
+        </div>
+        <div class="contact">
+            <div class="icon">
+                <i class="far fa-envelope"></i>
+            </div>
+            <span class="title"><a href="mailto:redcorpuz95@gmail.com" target="_blank">E-mail</a></span>
+            <span class="description">redcorpuz95@gmail.com</span>
+        </div>
+        <div class="contact">
+            <div class="icon">
+                <i class="fab fa-instagram"></i>
+            </div>
+            <span class="title"><a href="https://www.instagram.com/jaweeeid/" target="_blank">Instagram</a></span>
+            <span class="description">@jaweeeid</span>
+        </div>
+        <div class="contact">
+            <div class="icon">
+                <i class="fab fa-discord"></i>
+            </div>
+            <span class="title">Discord</span>
+            <span class="description">_joonks</span>
+        </div>
+        <div class="contact">
+            <div class="icon">
+                <i class="fab fa-youtube"></i>
+            </div>
+            <span class="title"><a href="https://www.youtube.com/@JoonX" target="_blank">Youtube</a></span>
+            <span class="description">@JoonX</span>
+        </div>
+    </section>
+    <section class="projects">
+        <h2 id="projects" class="target">Projects</h2>
+        <div class="cards">
+            <div class="card">
+                <div class="img-project">
+                    <img src="https://picsum.photos/300/130?random=1" alt="Project 1">
+                </div>
+                <div class="description-project">
+                    <span class="title-project">wait I'll upload soon</span>
+                    <span class="tag-project">Interesting stuff</span>
                 </div>
             </div>
-            <div class="right">
-                <img src="assets/images/anime.png" alt="Portrait of Jared">
-            </div>
-        </main>
-        <section class="about-me">
-            <h2 id="about-me">About Me</h2>
-            <p>I am a Master's student at Adamson University, pursuing a Master's Degree in Biology. I’m versatile in learning & experiencing different fields. I have a keen interest in Biology & currently interested in Bioinformatics. I also like playing video games. 🎮</p>
-        </section>
-        <section class="contacts" id="contacts">
-            <div class="contact">
-                <div class="icon"><i class="far fa-smile"></i></div>
-                <span class="title">My Name</span>
-                <span class="description">Jared</span>
-            </div>
-            <div class="contact">
-                <div class="icon"><i class="far fa-envelope"></i></div>
-                <span class="title"><a href="mailto:redcorpuz95@gmail.com">E-mail</a></span>
-                <span class="description">redcorpuz95@gmail.com</span>
-            </div>
-            <div class="contact">
-                <div class="icon"><i class="fab fa-instagram"></i></div>
-                <span class="title"><a href="https://www.instagram.com/jaweeeid/">Instagram</a></span>
-                <span class="description">@jaweeeid</span>
-            </div>
-            <div class="contact">
-                <div class="icon"><i class="fab fa-discord"></i></div>
-                <span class="title">Discord</span>
-                <span class="description">_joonks</span>
-            </div>
-            <div class="contact">
-                <div class="icon"><i class="fab fa-youtube"></i></div>
-                <span class="title"><a href="https://www.youtube.com/@JoonX">Youtube</a></span>
-                <span class="description">@JoonX</span>
-            </div>
-        </section>
-        <section class="projects">
-            <h2 id="projects">Projects</h2>
-            <div class="cards">
-                <div class="card">
-                    <div class="img-project"><img src="https://picsum.photos/300/130?random=1" alt="Project 1"></div>
-                    <div class="description-project">
-                        <span class="title-project">Coming Soon!</span>
-                        <span class="tag-project">Interesting Stuff</span>
-                    </div>
+            <div class="card">
+                <div class="img-project">
+                    <img src="https://picsum.photos/300/130?random=2" alt="Project 2">
                 </div>
-                <div class="card">
-                    <div class="img-project"><img src="https://picsum.photos/300/130?random=2" alt="Project 2"></div>
-                    <div class="description-project">
-                        <span class="title-project">Coming Soon!</span>
-                        <span class="tag-project">Interesting Stuff</span>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="img-project"><img src="https://picsum.photos/300/130?random=3" alt="Project 3"></div>
-                    <div class="description-project">
-                        <span class="title-project">Coming Soon!</span>
-                        <span class="tag-project">Interesting Stuff</span>
-                    </div>
+                <div class="description-project">
+                    <span class="title-project">wait I'll upload soon</span>
+                    <span class="tag-project">Interesting stuff</span>
                 </div>
             </div>
-        </section>
-        <section class="skills">
-            <h2 id="skills">My Skills (Just Kidding, IDK Any of That 😂)</h2>
-            <div class="cards-skills">
-                <div class="card-skill"><i class="fab fa-html5"></i></div>
-                <div class="card-skill"><i class="fab fa-css3-alt"></i></div>
-                <div class="card-skill"><i class="fab fa-js"></i></div>
-                <div class="card-skill"><i class="fab fa-java"></i></div>
-                <div class="card-skill"><i class="fab fa-python"></i></div>
-                <div class="card-skill"><i class="fab fa-figma"></i></div>
+            <div class="card">
+                <div class="img-project">
+                    <img src="https://picsum.photos/300/130?random=3" alt="Project 3">
+                </div>
+                <div class="description-project">
+                    <span class="title-project">wait I'll upload soon</span>
+                    <span class="tag-project">Interesting stuff</span>
+                </div>
             </div>
-        </section>
+        </div>
+    </section>
+    <section class="skills">
+        <h2 id="skills" class="target" >My skills (just kidding, IDK any of that 😂)</h2>
+        <div class="cards-skills">
+            <div class="card-skill"><i class="fab fa-html5"></i></div>
+            <div class="card-skill"><i class="fab fa-css3-alt"></i></div>
+            <div class="card-skill"><i class="fab fa-js"></i></div>
+            <div class="card-skill"><i class="fab fa-java"></i></div>
+            <div class="card-skill"><i class="fab fa-python"></i></div>
+            <div class="card-skill"><i class="fab fa-figma"></i></div>
+        </div>
+    </section>
     </div>
     <footer>
-        <div class="card-serve">
-            <i class="fas fa-code"></i> Made by <a href="https://github.com/jrdredw" target="_blank">Red</a>
-        </div>
+        <span>
+            <div class="card-serve">
+                <i class="fas fa-code"></i> Made by <a href="https://github.com/jrdredw target="_blank">Red</a>
+        </span>
     </footer>
-    <div class="goto-top"><a href="#top"><i class="fas fa-arrow-up"></i></a></div>
+    <div class="goto-top">
+        <a href="#top"><i class="fas fa-arrow-up"></i></a>
+    </div>
 </body>
-</html>
