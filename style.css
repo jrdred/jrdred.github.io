@@ -155,9 +155,9 @@ section.about-me p {
 
 section.contacts {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 121px;
+    justify-content: space-around; /* Distributes space evenly */
+    flex-wrap: wrap;              /* Allows wrapping of items */
+    gap: 20px;                    /* Adjusts the space between items */
     margin: 70px 0 67px;
 }
 
@@ -165,8 +165,9 @@ section.contacts div.contact {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 170px;
+    width: 170px; /* Keeps the width consistent */
     height: 150px;
+    text-align: center; /* Ensures text is centered */
 }
 
 section.contacts div.contact div.icon {
@@ -181,7 +182,7 @@ section.contacts div.contact div.icon {
 }
 
 section.contacts div.contact div.icon i {
-    font-size: 32px;
+    font-size: 40px; /* Adjusted icon size */
     color: var(--yellow);
 }
 
@@ -392,28 +393,6 @@ div.goto-top i {
     }
 
     section.contacts {
-        gap: 0;
-        margin-bottom: 30px;
-    }
-
-    section.projects {
-        margin-bottom: 30px;
-    }
-
-    section.skills {
-        margin-bottom: 30px;
-    }
-
-    section.skills div.cards-skills {
-        gap: 25px;
-    }
-
-    section.skills div.card-skill {
-        width: 85px;
-        height: 75px;
-    }
-
-    section.skills div.card-skill i {
-        font-size: 3rem;
+        justify-content: center; /* Center contacts in mobile view */
     }
 }
