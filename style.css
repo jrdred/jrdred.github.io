@@ -28,7 +28,10 @@ a {
 }
 
 body {
-    background-color: var(--dark);
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Dark gradient overlay */
+        url('street.png') no-repeat center center fixed;
+    background-size: cover; /* Ensures the image covers the full viewport */
     color: var(--white);
     font-size: 16px;
     font-family: 'DM Sans', sans-serif;
